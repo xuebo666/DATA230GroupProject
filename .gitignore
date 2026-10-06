@@ -1,7 +1,20 @@
+# Environment / project files
 .env
 .complete
-.vscode
+
+# IDE
+.vscode/
+
+# OS
 .DS_Store
 
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files
 ecommerce_clean.csv
 ecommerce_sales_customer_analytics_150k.csv
